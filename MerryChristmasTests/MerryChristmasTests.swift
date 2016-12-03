@@ -1,11 +1,3 @@
-//
-//  MerryChristmasTests.swift
-//  MerryChristmasTests
-//
-//  Created by pawel-rusin on 12/3/16.
-//  Copyright © 2016 pawel-rusin. All rights reserved.
-//
-
 import XCTest
 @testable import MerryChristmas
 
@@ -22,15 +14,7 @@ class MerryChristmasTests: XCTestCase {
     }
     
     func testExample() {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
-    }
-    
-    func testPerformanceExample() {
-        // This is an example of a performance test case.
-        self.measure {
-            // Put the code you want to measure the time of here.
-        }
+        
     }
     
 }
