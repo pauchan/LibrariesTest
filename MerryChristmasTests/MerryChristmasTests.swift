@@ -1,20 +1,29 @@
 import XCTest
+import Quick
+import Nimble
+
+
 @testable import MerryChristmas
 
 class MerryChristmasTests: XCTestCase {
-    
+
+    var articles: Articles?
+
     override func setUp() {
         super.setUp()
-        // Put setup code here. This method is called before the invocation of each test method in the class.
+        let json = dataFrom(name: "Articles")
+        articles = Articles(json: json)
     }
     
-    override func tearDown() {
-        // Put teardown code here. This method is called after the invocation of each test method in the class.
-        super.tearDown()
-    }
-    
-    func testExample() {
+    func testArticles() {
+
+        expect(self.articles?.status).to(equal("ok"))
+
         
     }
-    
+
+//    "status": "ok",
+//    "source": "the-next-web",
+//    "sortBy": "latest",
+
 }

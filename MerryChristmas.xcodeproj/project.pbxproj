@@ -7,12 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1847B8931DF2C1EE006CFC98 /* Article.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1847B8921DF2C1EE006CFC98 /* Article.swift */; };
+		1847B8951DF2C615006CFC98 /* Articles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1847B8941DF2C615006CFC98 /* Articles.swift */; };
+		1847B8971DF2C625006CFC98 /* Source.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1847B8961DF2C625006CFC98 /* Source.swift */; };
+		1847B8991DF2C637006CFC98 /* Sources.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1847B8981DF2C637006CFC98 /* Sources.swift */; };
+		1847B89A1DF2C9FA006CFC98 /* Articles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1847B8941DF2C615006CFC98 /* Articles.swift */; };
+		1847B89B1DF2C9FE006CFC98 /* Article.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1847B8921DF2C1EE006CFC98 /* Article.swift */; };
+		1847B89C1DF2CB0A006CFC98 /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18EF64271DF2BDB900CACE44 /* Nimble.framework */; };
+		1847B89D1DF2CB0D006CFC98 /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18EF642B1DF2BDD000CACE44 /* Quick.framework */; };
 		18EF63F91DF2A22400CACE44 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EF63F81DF2A22400CACE44 /* AppDelegate.swift */; };
 		18EF63FB1DF2A22400CACE44 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EF63FA1DF2A22400CACE44 /* ViewController.swift */; };
 		18EF63FE1DF2A22400CACE44 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18EF63FC1DF2A22400CACE44 /* Main.storyboard */; };
 		18EF64001DF2A22400CACE44 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18EF63FF1DF2A22400CACE44 /* Assets.xcassets */; };
 		18EF64031DF2A22400CACE44 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18EF64011DF2A22400CACE44 /* LaunchScreen.storyboard */; };
 		18EF640E1DF2A22400CACE44 /* MerryChristmasTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EF640D1DF2A22400CACE44 /* MerryChristmasTests.swift */; };
+		18EF641A1DF2B8F400CACE44 /* Articles.json in Resources */ = {isa = PBXBuildFile; fileRef = 18EF64191DF2B8F400CACE44 /* Articles.json */; };
+		18EF641C1DF2B91700CACE44 /* Sources.json in Resources */ = {isa = PBXBuildFile; fileRef = 18EF641B1DF2B91700CACE44 /* Sources.json */; };
+		18EF641E1DF2BB5100CACE44 /* StubsLoadHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EF641D1DF2BB5100CACE44 /* StubsLoadHelper.swift */; };
+		18EF64231DF2BD2B00CACE44 /* KIF.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18EF641F1DF2BCF800CACE44 /* KIF.framework */; };
+		18EF64261DF2BDAD00CACE44 /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18EF64251DF2BDAD00CACE44 /* RxSwift.framework */; };
+		18EF642A1DF2BDCB00CACE44 /* WebImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18EF64291DF2BDCB00CACE44 /* WebImage.framework */; };
+		18EF642E1DF2BDD600CACE44 /* Gloss.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18EF642D1DF2BDD600CACE44 /* Gloss.framework */; };
+		18EF64301DF2BDEF00CACE44 /* ComponentKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18EF642F1DF2BDEF00CACE44 /* ComponentKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +42,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1847B8921DF2C1EE006CFC98 /* Article.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Article.swift; sourceTree = "<group>"; };
+		1847B8941DF2C615006CFC98 /* Articles.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Articles.swift; sourceTree = "<group>"; };
+		1847B8961DF2C625006CFC98 /* Source.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Source.swift; sourceTree = "<group>"; };
+		1847B8981DF2C637006CFC98 /* Sources.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Sources.swift; sourceTree = "<group>"; };
 		18EF63F51DF2A22400CACE44 /* MerryChristmas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MerryChristmas.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18EF63F81DF2A22400CACE44 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		18EF63FA1DF2A22400CACE44 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -36,6 +56,16 @@
 		18EF64091DF2A22400CACE44 /* MerryChristmasTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MerryChristmasTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		18EF640D1DF2A22400CACE44 /* MerryChristmasTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MerryChristmasTests.swift; sourceTree = "<group>"; };
 		18EF640F1DF2A22400CACE44 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18EF64191DF2B8F400CACE44 /* Articles.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Articles.json; sourceTree = "<group>"; };
+		18EF641B1DF2B91700CACE44 /* Sources.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Sources.json; sourceTree = "<group>"; };
+		18EF641D1DF2BB5100CACE44 /* StubsLoadHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StubsLoadHelper.swift; sourceTree = "<group>"; };
+		18EF641F1DF2BCF800CACE44 /* KIF.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = KIF.framework; path = Carthage/Build/iOS/KIF.framework; sourceTree = "<group>"; };
+		18EF64251DF2BDAD00CACE44 /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSwift.framework; path = Carthage/Build/iOS/RxSwift.framework; sourceTree = "<group>"; };
+		18EF64271DF2BDB900CACE44 /* Nimble.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Nimble.framework; path = Carthage/Build/iOS/Nimble.framework; sourceTree = "<group>"; };
+		18EF64291DF2BDCB00CACE44 /* WebImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebImage.framework; path = Carthage/Build/iOS/WebImage.framework; sourceTree = "<group>"; };
+		18EF642B1DF2BDD000CACE44 /* Quick.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quick.framework; path = Carthage/Build/iOS/Quick.framework; sourceTree = "<group>"; };
+		18EF642D1DF2BDD600CACE44 /* Gloss.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Gloss.framework; path = Carthage/Build/iOS/Gloss.framework; sourceTree = "<group>"; };
+		18EF642F1DF2BDEF00CACE44 /* ComponentKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ComponentKit.framework; path = Carthage/Build/iOS/ComponentKit.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +73,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18EF642A1DF2BDCB00CACE44 /* WebImage.framework in Frameworks */,
+				18EF642E1DF2BDD600CACE44 /* Gloss.framework in Frameworks */,
+				18EF64301DF2BDEF00CACE44 /* ComponentKit.framework in Frameworks */,
+				18EF64231DF2BD2B00CACE44 /* KIF.framework in Frameworks */,
+				18EF64261DF2BDAD00CACE44 /* RxSwift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,18 +85,32 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1847B89C1DF2CB0A006CFC98 /* Nimble.framework in Frameworks */,
+				1847B89D1DF2CB0D006CFC98 /* Quick.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1847B8911DF2C1DF006CFC98 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1847B8921DF2C1EE006CFC98 /* Article.swift */,
+				1847B8941DF2C615006CFC98 /* Articles.swift */,
+				1847B8961DF2C625006CFC98 /* Source.swift */,
+				1847B8981DF2C637006CFC98 /* Sources.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
 		18EF63EC1DF2A22400CACE44 = {
 			isa = PBXGroup;
 			children = (
 				18EF63F71DF2A22400CACE44 /* MerryChristmas */,
 				18EF640C1DF2A22400CACE44 /* MerryChristmasTests */,
 				18EF63F61DF2A22400CACE44 /* Products */,
+				18EF64241DF2BDAD00CACE44 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -77,6 +126,7 @@
 		18EF63F71DF2A22400CACE44 /* MerryChristmas */ = {
 			isa = PBXGroup;
 			children = (
+				1847B8911DF2C1DF006CFC98 /* Model */,
 				18EF63F81DF2A22400CACE44 /* AppDelegate.swift */,
 				18EF63FA1DF2A22400CACE44 /* ViewController.swift */,
 				18EF63FC1DF2A22400CACE44 /* Main.storyboard */,
@@ -90,10 +140,35 @@
 		18EF640C1DF2A22400CACE44 /* MerryChristmasTests */ = {
 			isa = PBXGroup;
 			children = (
+				18EF64181DF2B8DB00CACE44 /* Stubs */,
 				18EF640D1DF2A22400CACE44 /* MerryChristmasTests.swift */,
+				18EF641D1DF2BB5100CACE44 /* StubsLoadHelper.swift */,
 				18EF640F1DF2A22400CACE44 /* Info.plist */,
 			);
 			path = MerryChristmasTests;
+			sourceTree = "<group>";
+		};
+		18EF64181DF2B8DB00CACE44 /* Stubs */ = {
+			isa = PBXGroup;
+			children = (
+				18EF64191DF2B8F400CACE44 /* Articles.json */,
+				18EF641B1DF2B91700CACE44 /* Sources.json */,
+			);
+			name = Stubs;
+			sourceTree = "<group>";
+		};
+		18EF64241DF2BDAD00CACE44 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				18EF641F1DF2BCF800CACE44 /* KIF.framework */,
+				18EF642F1DF2BDEF00CACE44 /* ComponentKit.framework */,
+				18EF642D1DF2BDD600CACE44 /* Gloss.framework */,
+				18EF642B1DF2BDD000CACE44 /* Quick.framework */,
+				18EF64291DF2BDCB00CACE44 /* WebImage.framework */,
+				18EF64271DF2BDB900CACE44 /* Nimble.framework */,
+				18EF64251DF2BDAD00CACE44 /* RxSwift.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -106,6 +181,7 @@
 				18EF63F11DF2A22400CACE44 /* Sources */,
 				18EF63F21DF2A22400CACE44 /* Frameworks */,
 				18EF63F31DF2A22400CACE44 /* Resources */,
+				18EF64311DF2BE3900CACE44 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -191,18 +267,47 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18EF641C1DF2B91700CACE44 /* Sources.json in Resources */,
+				18EF641A1DF2B8F400CACE44 /* Articles.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		18EF64311DF2BE3900CACE44 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/KIF.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/ComponentKit.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Gloss.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Quick.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Nimble.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/WebImage.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/RxSwift.framework",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		18EF63F11DF2A22400CACE44 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1847B8991DF2C637006CFC98 /* Sources.swift in Sources */,
+				1847B8951DF2C615006CFC98 /* Articles.swift in Sources */,
 				18EF63FB1DF2A22400CACE44 /* ViewController.swift in Sources */,
 				18EF63F91DF2A22400CACE44 /* AppDelegate.swift in Sources */,
+				1847B8971DF2C625006CFC98 /* Source.swift in Sources */,
+				1847B8931DF2C1EE006CFC98 /* Article.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -210,7 +315,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1847B89B1DF2C9FE006CFC98 /* Article.swift in Sources */,
 				18EF640E1DF2A22400CACE44 /* MerryChristmasTests.swift in Sources */,
+				1847B89A1DF2C9FA006CFC98 /* Articles.swift in Sources */,
+				18EF641E1DF2BB5100CACE44 /* StubsLoadHelper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -342,6 +450,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = E7B7C62MQ9;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = MerryChristmas/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.pawel.MerryChristmas;
@@ -355,6 +467,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = E7B7C62MQ9;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = MerryChristmas/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.pawel.MerryChristmas;
@@ -369,6 +485,10 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = E7B7C62MQ9;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = MerryChristmasTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.pawel.MerryChristmasTests;
@@ -384,6 +504,10 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = E7B7C62MQ9;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = MerryChristmasTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.pawel.MerryChristmasTests;
@@ -412,6 +536,7 @@
 				18EF64141DF2A22400CACE44 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		18EF64151DF2A22400CACE44 /* Build configuration list for PBXNativeTarget "MerryChristmasTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +545,7 @@
 				18EF64171DF2A22400CACE44 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

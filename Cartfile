@@ -1,0 +1,15 @@
+github "ReactiveX/RxSwift"
+github "hkellaway/Gloss"
+
+github "Quick/Quick"
+github "Quick/Nimble"
+
+github "facebook/componentkit"
+
+github "pivotal/pivotalCoreKit"
+
+github "kif-framework/KIF"
+
+github "rs/SDWebImage"
+
+github "joshaber/Few.swift"
